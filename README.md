@@ -1,6 +1,9 @@
-# My DSA Final Project
+# Summary:
+
+Performed Exploratory Data Analysis (EDA) on Key Performance Indicators (KPIs) to extract actionable insights.
 
 ## Project Overview:
+
 This capstone project was completed during a three-month intensive Data Analysis program. It focuses on developing SQL querying skills across two business scenarios within Kultra Mega Stores (KMS):
 Case Scenario I: Sales & Operations Analysis and
 Case Scenario II: Customer Behavior & Logistics Efficiency
@@ -59,12 +62,14 @@ Data Source: Provided by INCUBATOR HUB (Kultra Mega Stores dataset in CSV format
 
 
 ### Insights:
+
 The negative profits in the table above show that customer Christopher Conant has multiple products with negative profit across categories like Technology, Office Supplies, and Furniture. This could be due to heavy discounts, high operational (shipping costs) costs, or selling low-margin products.
 
 ![Table 1](https://github.com/user-attachments/assets/a8f81801-958f-4710-8dbc-9d81f63c08f1)
 
 
 ### Recommendations:
+
 - Restrict discounts for Home Office customers on low-margin items, since it is the customer segment mainly affected.
 - Offer bundled deals or minimum order thresholds to ensure profitability.
 - Promote higher-margin alternatives within Office Supplies and Technology.
@@ -77,6 +82,7 @@ The negative profits in the table above show that customer Christopher Conant ha
 
 
 ### Exploratory Data Analysis: Case Scenario II: Customer & Logistics Behavior
+
 6. Most valuable customers and their typical products or services purchase history.
                  
 ![Table 2](https://github.com/user-attachments/assets/e52631b1-de32-42f0-859c-1f2ceb70a86b)
@@ -120,10 +126,12 @@ The negative profits in the table above show that customer Christopher Conant ha
 
 
 ### Insight:
+
 KMS has mismatched shipping methods with order priority. Fast methods like Express Air should be used more frequently for Critical orders.
 
 
 ###  Key SQL Skills Demonstrated:
+
 - Database creation and data importation
 - Data extraction and conditional filtering
 - Aggregation, grouping, and sorting
@@ -135,6 +143,7 @@ KMS has mismatched shipping methods with order priority. Fast methods like Expre
 SQL Code: [SQL queries](https://1drv.ms/u/c/bc44d4c60b54fc1d/EfN58PeAHKdCvQMXZ5Gof0QBtuA72aEFTJJn0OvKiVi_Hg?e=kmNgAP) 
 
 ### Recommendations for KMS
+
 - Optimize shipping alignment by matching express methods with priority orders.
 - Re-evaluate discount policies, especially for small business and home office segments.
 - Review logistics partnerships to control Delivery Truck expenses.
